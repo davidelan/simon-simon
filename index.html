@@ -19,6 +19,37 @@
         <h1>Simon Simon Game</h1>
     </header>
     <main>
+        <section id="container">
+            <!-- Four color parts of the game -->
+            <div id="red"></div>
+            <div id="green"></div>
+            <div id="blue"></div>
+            <div id="yellow"></div>
 
+            <!-- Name of game on the console with google font effect "emboss" (idea from freecodeinstitute tutrial) -->
+            <div id="game-name" class="font-effect-emboss">SIMON!</div>
+
+            <!-- Sart Button to start the game -->
+            <button id="start">Start Game</button>
+
+            <!-- Count section to display the number of rounds of the game -->
+            <div id="count">COUNT</div>
+        </section>
     </main>
+
+    <div class="hidden">
+
+        <!-- Original Game sounds from freecodecamp downloaded from:
+            https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound4.mp3 -->
+        <audio id="sound-red" src="assets/sounds/simonSound1.mp3"></audio>
+        <audio id="sound-green" src="assets/sounds/simonSound2.mp3"></audio>
+        <audio id="sound-blue" src="assets/sounds/simonSound3.mp3"></audio>
+        <audio id="sound-yellow" src="assets/sounds/simonSound4.mp3"></audio>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="assets/js/script.js"></script>
 </body>
