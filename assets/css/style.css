@@ -129,13 +129,13 @@
     body {
       font-size: 10px;
     }
-    /*
+
     .game {
       height: 35em;
       width: 35em;
     }
-    */
-    #header1 {
+    
+    #header {
       margin-bottom: 200px;
     }
   }
