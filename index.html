@@ -12,29 +12,30 @@
     <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
     <!-- Link to stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Simon Simon</title>
+    <title>Simon Game</title>
 </head>
 <body>
     <header>
-        <h1>Simon Simon Game</h1>
+        <h1 id="header1" class="font-effect-emboss">Simon Simon Game</h1>
     </header>
     <main>
-        <section id="container">
+        <div id="game">
             <!-- Four color parts of the game -->
-            <div id="red"></div>
-            <div id="green"></div>
-            <div id="blue"></div>
-            <div id="yellow"></div>
+            <div class="colors" id="red"></div>
+            <div class="colors" id="green"></div>
+            <div class="colors" id="blue"></div>
+            <div class="colors" id="yellow"></div>
+            <div id="inner-circle">
+                <!-- Name of game on the console with google font effect "emboss" (idea from freecodeinstitute tutrial) -->
+                <div id="game-name" class="font-effect-emboss">SIMON!</div>
 
-            <!-- Name of game on the console with google font effect "emboss" (idea from freecodeinstitute tutrial) -->
-            <div id="game-name" class="font-effect-emboss">SIMON!</div>
+                <!-- Sart Button to start the game -->
+                <button id="start-button">Start</button>
 
-            <!-- Sart Button to start the game -->
-            <button id="start">Start Game</button>
-
-            <!-- Count section to display the number of rounds of the game -->
-            <div id="count">COUNT</div>
-        </section>
+                <!-- Count section to display the number of rounds of the game -->
+                <div id="count">000</div>
+            </div>
+        </div>
     </main>
 
     <div class="hidden">
