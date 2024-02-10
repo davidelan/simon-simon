@@ -63,4 +63,18 @@
     border-radius: 0 0 0 13em;
   }
 
+  #inner-circle {
+    position: absolute;
+    content: "";
+    background-color: gray;
+    height: 13.75em;
+    width: 13.75em;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border:14px solid black;
+  }
+
   
