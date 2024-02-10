@@ -10,3 +10,8 @@
     background-color: lightgray;
   }
 
+  #header {
+    font-family: 'Original Surfer', cursive;
+    color: black;
+    text-align: center;
+  }
