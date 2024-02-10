@@ -28,4 +28,9 @@
     margin-top: 20px;
   }
 
-  
+  .colors {
+    height: 13.12em;
+    width: 13.12em;
+    position: absolute;
+    cursor: pointer;
+  }
