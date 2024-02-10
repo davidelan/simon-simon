@@ -34,3 +34,33 @@
     position: absolute;
     cursor: pointer;
   }
+
+  #red {
+    background-color: #027802;
+    border-radius: 13em 0 0 0;
+    top: 1.87em;
+    left: 1.87em;
+  }
+  
+  #green {
+    background-color: #950303;
+    border-radius: 0 13em 0 0;
+    top: 1.87em;
+    right: 1.87em;
+  }
+  
+  #blue {
+    background-color: #01018a;
+    bottom: 1.87em;
+    right: 1.87em;
+    border-radius: 0 0 13em 0;
+  }
+  
+  #yellow {
+    background-color: #919102;
+    bottom: 1.87em;
+    left: 1.87em;
+    border-radius: 0 0 0 13em;
+  }
+
+  
