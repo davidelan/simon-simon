@@ -10,7 +10,32 @@
     background-color: lightgray;
   }
 
-  #header {
+  header {
+    margin-top: 50px;
+  }
+  
+  header>div {
+    margin: auto;
+    width:200px;
+    height: auto;
+    background-color: antiquewhite;
+  }
+  
+  #header-h1 {
+    font-family: 'Original Surfer', cursive;
+    color: black;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+  }
+  
+  #header-h2 {
+    font-family: 'Original Surfer', cursive;
+    color: black;
+    text-align: center;
+    margin: 30px 0px 5px 0px;
+  }
+  
+  #max-score {
     font-family: 'Original Surfer', cursive;
     color: black;
     text-align: center;
