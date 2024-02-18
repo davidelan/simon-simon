@@ -19,3 +19,33 @@ const counter = document.querySelector("#count");               // contains div 
 const startButton = document.querySelector("#start-button");    // contains button id start-button from html page
 const maxScore = document.querySelector("#max-score");          // contains div id max-score from html page
 
+//* When the play button is pressed the play() function is called *//
+startButton.addEventListener('click', (event) => {
+    play();
+});
+
+//* Play function that initialises main variables and creates random sequence *//
+function play() {
+    win = false;
+    randomSequence = [];
+    playerSequence = [];
+    illuminate = 0;
+    count = 1;
+    counter.innerHTML = 1;
+    correct = true;
+    machineTurn = true;
+
+    /* for loop to generate n random numbers between 1 and 4 (the four colors)  */
+    for (var i = 0; i < winRound; i++) {
+      randomSequence.push(Math.floor(Math.random() * 4) + 1);
+    }
+
+    // sets interval to run gameTurn() every 800ms
+    flashInterval = setInterval(gameTurn, 800);
+    
+    // creates eventListeners for each color button to detect button click
+    red.addEventListener('click', redButton);
+    green.addEventListener('click', greenButton);
+    yellow.addEventListener('click', yellowButton);
+    blue.addEventListener('click', blueButton);
+}
