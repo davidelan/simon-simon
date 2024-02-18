@@ -1,4 +1,4 @@
-/* "all elements" (a universal selector) */
+/* General styling applied to all elements */
 * {
     padding: 0;
     margin: 0;
@@ -10,11 +10,13 @@
     background-color: lightgray;
   }
 
+  /* push the header down from the very top of the page */
   header {
     margin-top: 50px;
   }
   
-  header>div {
+  /* styling the max score div  */
+  #max-score-div {
     margin: auto;
     width:200px;
     height: auto;
@@ -41,6 +43,7 @@
     text-align: center;
   }
 
+  /* Styles for the main game console */
   #game {
     height: 31.25em;
     width: 31.25em;
@@ -60,6 +63,7 @@
     cursor: pointer;
   }
 
+  /* each individual color styling */
   #red {
     background-color: darkred;
     border-radius: 13em 0 0 0;
@@ -88,6 +92,7 @@
     border-radius: 0 0 13em 0;
   }
   
+  /* Styling of the inner part with Start button and count display */
   #inner-circle {
     position: absolute;
     content: "";
@@ -102,6 +107,7 @@
     border:14px solid black;
   }
 
+  /* Styling of game name in the middle of console (idea from freecodeinstitute tutorial) */
   #game-name {
     font-family: 'Original Surfer', cursive;
     color: lightgrey;
@@ -118,6 +124,7 @@
     border-radius: 0.3em;
   }
 
+  /* Styling of count display in the middle of console */
   #count {
     background-color: #330000; /* similar color of the real Simon game */
     color: red; 
@@ -136,6 +143,7 @@
     border-radius: 0.3em;
   }
   
+  /* Styling of start button in the middle of console */
   #start-button {
     background-color: lightgray;
     font-size: 1.5em;
@@ -152,17 +160,42 @@
     border-radius: 0.3em;
   }
 
-  @media screen and (max-width: 600px) {
-    body {
-      font-size: 10px;
-    }
-
-    .game {
-      height: 35em;
-      width: 35em;
-    }
-    
-    #header {
-      margin-bottom: 200px;
-    }
+  /* If screen width size smaller than 550px OR height size smaller than 500px, resize game area to fit screen */
+@media screen and (max-width: 550px), (max-height: 500px) {
+  #game {
+    height: 22.25em;
+    width: 22.25em;
+    top: 300px;
   }
+
+  .colors {
+  height: 8.8em;
+  width: 8.8em;
+  position: absolute;
+  cursor: pointer;
+  }
+
+  #inner-circle {
+    height: 11.75em;
+    width: 11.75em;
+  }
+
+  #game-name {
+    font-size: 1.5em;
+  }
+
+  #header-h1 {
+    font-size: 100%;
+    font-family: 'Original Surfer', cursive;
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #header-h2 {
+    font-size: 80%;
+     margin: 10px 0px 10px 0px; 
+  }
+
+  #max-score {
+    font-size: 80%;
+  }
+}
