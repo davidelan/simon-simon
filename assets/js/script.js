@@ -49,3 +49,24 @@ function play() {
     yellow.addEventListener('click', yellowButton);
     blue.addEventListener('click', blueButton);
 }
+
+// main function to determine machine or player turn
+function gameTurn() {
+
+    if (illuminate == count) {
+      clearInterval(flashInterval);
+      machineTurn = false;
+      clearColor();
+    }
+  
+    if (machineTurn) {
+      clearColor();
+      setTimeout(() => {
+        if (randomSequence[illuminate] == 1) redPlay();
+        if (randomSequence[illuminate] == 2) greenPlay();
+        if (randomSequence[illuminate] == 3) yellowPlay();
+        if (randomSequence[illuminate] == 4) bluePlay();
+        illuminate++;
+      }, 200);
+    }
+  }
