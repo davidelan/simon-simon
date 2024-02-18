@@ -9,3 +9,13 @@ let machineTurn;    // if true it's the computer turn
 let flashInterval;  // contains the the setinterval() for the gameturn() function
 let buzz = true;    // when true allow sounds associated with each color
 
+// colors
+const green = document.querySelector("#green");     // contains div id green from html page
+const red = document.querySelector("#red");         // contains div id red from html page
+const yellow = document.querySelector("#yellow");   // contains div id yellow from html page
+const blue = document.querySelector("#blue");       // contains div id blue from html page
+
+const counter = document.querySelector("#count");               // contains div id count from html page
+const startButton = document.querySelector("#start-button");    // contains button id start-button from html page
+const maxScore = document.querySelector("#max-score");          // contains div id max-score from html page
+
