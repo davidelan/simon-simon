@@ -26,6 +26,7 @@ startButton.addEventListener('click', (event) => {
 
 //* Play function that initialises main variables and creates random sequence *//
 function play() {
+    console.log("play function started");
     win = false;
     randomSequence = [];
     playerSequence = [];
@@ -50,7 +51,7 @@ function play() {
     blue.addEventListener('click', blueButton);
 }
 
-// main function to determine machine or player turn
+// main function to determine machine or player turn + behaviour
 function gameTurn() {
 
     if (illuminate == count) {
