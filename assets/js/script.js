@@ -133,4 +133,43 @@ function greenButton() {
   }
 }
 
+// function to manage behaviour when red button is clicked
+function redButton() {
+  playerSequence.push(1);
+  evaluate();
+  buzz = true;
+  redPlay();
+  if(!win) {
+    setTimeout(() => {
+      clearColor();
+    }, 300);
+  }
+}
+
+// function to manage behaviour when yellow button is clicked
+function yellowButton() {
+  playerSequence.push(3);
+  evaluate();
+  buzz = true;
+  yellowPlay();
+  if(!win) {
+    setTimeout(() => {
+      clearColor();
+    }, 300);
+  }
+}
+
+// function to manage behaviour when blue button is clicked
+function blueButton() {
+  playerSequence.push(4);
+  evaluate();
+  buzz = true;
+  bluePlay();
+  if(!win) {
+    setTimeout(() => {
+      clearColor();
+    }, 300);
+  }
+}
+
 
