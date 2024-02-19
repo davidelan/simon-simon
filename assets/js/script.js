@@ -71,3 +71,66 @@ function gameTurn() {
       }, 200);
     }
   }
+
+  // to bring buttons color back to base color
+function clearColor() {
+  green.style.backgroundColor = "darkgreen";
+  red.style.backgroundColor = "darkred";
+  yellow.style.backgroundColor = "goldenrod";
+  blue.style.backgroundColor = "darkblue";
+}
+
+// function to to illuminate and play sound for green button
+function greenPlay() {
+  if (buzz) {
+    let audio = document.getElementById("sound-green");
+    audio.play();
+  }
+  buzz = true;
+  green.style.backgroundColor = "lightgreen";
+}
+
+// function to to illuminate and play sound for red button
+function redPlay() {
+  if (buzz) {
+    let audio = document.getElementById("sound-red");
+    audio.play();
+  }
+  buzz = true;
+  red.style.backgroundColor = "tomato";
+}
+
+// function to to illuminate and play sound for yellow button
+function yellowPlay() {
+  if (buzz) {
+    let audio = document.getElementById("sound-yellow");
+    audio.play();
+  }
+  buzz = true;
+  yellow.style.backgroundColor = "yellow";
+}
+
+// function to to illuminate and play sound for blue button
+function bluePlay() {
+  if (buzz) {
+    let audio = document.getElementById("sound-blue");
+    audio.play();
+  }
+  buzz = true;
+  blue.style.backgroundColor = "lightskyblue";
+}
+
+// function to manage behaviour when green button is clicked
+function greenButton() {
+  playerSequence.push(2);
+  evaluate();
+  buzz = true;
+  greenPlay();
+  if(!win) {
+    setTimeout(() => {
+      clearColor();
+    }, 300);
+  }
+}
+
+
