@@ -56,7 +56,19 @@ The game is suitable for all ages. Adults supervision advised for children under
 - **Imagery:**
   The images that make up the game are crated with the combination of html divs and css styling. No external image was used in the project.
 - **Colour Scheme:**
-  The colors of the console have been chosen according to the colors of the real Simon game. <br>
+  The colors of the console have been chosen according to the colors of the real Simon game. The background color was set to "lightgray" which I considered to be an appropriate contrast color for the colorful game.  
+
+* I have used `lightgray` as the background color.
+
+* I have used `darkred` and `tomato` as the red color of the game console.
+* I have used `darkgreen` and `lightgreen` as the green color of the game console.
+* I have used `goldenrod` and `yellow` as the yellow color of the game console.
+* I have used `darkblue` and `lightskyblue` as the blue color of the game console.
+
+* I have used `gray` as the background color of the inner circle of the console game.
+
+* I have used `antiquewhite` as the background color for the Max Score and the Instructions.
+ <br>
 
 - **Typography:**
   [Original Surfer + emboss effect](https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss) was used for the title of the page, the Max Score section and for the name of the game in the middle of the console.
