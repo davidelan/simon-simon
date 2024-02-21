@@ -186,3 +186,49 @@ function evaluate() {
       endGame();
     }, 800);
   }
+
+  if (correct == false) {
+    illuminateColor();
+    counter.innerHTML = "WRONG!";
+    setTimeout(() => {
+      counter.innerHTML = count;
+      count--;
+      clearColor();
+      endGame();
+    }, 800);
+  }
+  
+  buzz = false;
+
+  if (count == playerSequence.length && correct && !win) {
+    playerSequence = [];
+    machineTurn = true;
+    illuminate = 0;
+    count++;
+    counter.innerHTML = count;
+    flashInterval = setInterval(gameTurn, 800);
+  }
+}
+
+// function which is called when the player has won or lost
+function endGame() {
+  clearInterval(flashInterval);
+  
+  if (win) {
+      counter.innerHTML = "WIN!";
+  } else {
+      counter.innerHTML = "OVER";
+  }
+
+  if (count > maxScore.innerHTML) {
+     maxScore.innerHTML = count; 
+  }
+  
+  clearColor();
+  
+  // in order to prevent the user from being able to still click the buttons when game is over
+  red.removeEventListener("click", redButton);
+  green.removeEventListener("click", greenButton);
+  yellow.removeEventListener("click", yellowButton);
+  blue.removeEventListener("click", blueButton);
+}
