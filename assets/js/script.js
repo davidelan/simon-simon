@@ -232,3 +232,11 @@ function endGame() {
   yellow.removeEventListener("click", yellowButton);
   blue.removeEventListener("click", blueButton);
 }
+
+// change colors to brighter ones after mistake or win
+function illuminateColor() {
+  red.style.backgroundColor = "lightgreen";
+  green.style.backgroundColor = "tomato";
+  yellow.style.backgroundColor = "yellow";
+  blue.style.backgroundColor = "lightskyblue";
+}
