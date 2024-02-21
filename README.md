@@ -79,8 +79,10 @@ The game is suitable for all ages. Adults supervision advised for children under
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-Home page:<br>
+Home page:
+
 ![Home Page](documentation/wireframes/all_home_wf.png)
 
-with instructions:<br>
+with instructions:
+
 ![Instructions Page](documentation/wireframes/all_instructions_wf.png)
