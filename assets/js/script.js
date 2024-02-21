@@ -172,4 +172,17 @@ function blueButton() {
   }
 }
 
+// function to evaluate rounds and if player has lost or won 
+function evaluate() {
+  if (playerSequence[playerSequence.length - 1] !== randomSequence[playerSequence.length - 1]) {
+    correct = false;
+    }
 
+  if (playerSequence.length == winRound && correct) {
+    win = true;
+    illuminateColor();
+    setTimeout(() => {
+      clearColor();
+      endGame();
+    }, 800);
+  }
