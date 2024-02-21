@@ -18,14 +18,28 @@
     <title>Simon Game</title>
 </head>
 <body>
+    <!-- Title with game name with google font effect "emboss" (idea from freecodeinstitute tutorial) -->
     <header>
         <h1 id="header-h1" class="font-effect-emboss">Simon Simon Game</h1>
+
+        <!-- "Fake" checkbox to be able to display the <p> below when clicking on the word "Instructions"-->
+        <input id="header-button" type="checkbox" name="menu"/>
+        <label id="label" for="header-button">Instructions</label>
+        <p id="display-on-hover">
+            The goal of the game is to remember the pattern as far as you can. 
+            Start the game by pressing the Start button. A color will flash. 
+            Press that color. The unit will add another color to the sequence which you then repeat by pressing in the correct order. 
+            The unit will continue to add colors. If you repeat the correct sequence for 10 rounds you win!. Have fun!!!
+        </p>
+
+        <!-- div for displaying the maximum score -->
         <div id="max-score-div">
             <h2 id="header-h2">Max score</h2>
             <h2 id="max-score">0</h2>
         </div>
     </header>
     <main>
+        <!-- main div containing the console of game -->
         <div id="game">
 
             <!-- Four color parts of the game -->
@@ -33,6 +47,8 @@
             <div class="colors" id="green"></div>
             <div class="colors" id="blue"></div>
             <div class="colors" id="yellow"></div>
+
+            <!-- Inner part of Console with start button and nr. of rounds -->
             <div id="inner-circle">
 
                 <!-- Name of game on the console with google font effect "emboss" (idea from freecodeinstitute tutrial) -->
@@ -47,8 +63,9 @@
         </div>
     </main>
 
+    <!-- Hidden div that contains the sounds for each color button -->
     <div class="hidden">
-
+        
         <!-- Original Game sounds from freecodecamp downloaded from:
             https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
             https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
