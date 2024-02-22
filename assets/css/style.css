@@ -193,7 +193,7 @@
   }
 
   /* If screen width size smaller than 550px OR height size smaller than 500px, resize game area to fit screen */
-@media screen and (max-width: 550px), (max-height: 500px) {
+@media screen and (max-width: 578px), (max-height: 500px) {
   #game {
     height: 22.25em;
     width: 22.25em;
