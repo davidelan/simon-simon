@@ -231,7 +231,7 @@
     top: 80px;
   }
 
-  #header-button:checked~#display-on-hover {
+  #header-button:checked ~ #display-on-hover {
     font-size: 20px;
   }
 
