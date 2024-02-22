@@ -105,8 +105,16 @@ The home page is the place that contains all the features of the game. In it the
 ![Home page image](documentation/features/home.jpg)
 
 
+<br>
 When clicking on "How to play", a window (with the game instructions) inside the main page is displayed.
 
-![Modal open image](documentation/features/home_howto.jpg)
+![HowTo image](documentation/features/home_howto.jpg)
+
+<br>
+
+In the same main page the game can be started and according to the performance of the player, win or lose.
 
 
+### Features, which I would like to implement in the future
+
+-  
