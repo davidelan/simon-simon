@@ -121,11 +121,18 @@ In the same main page, the game can be started and according to the performance 
 
 ## Technologies Used
 
+### Languages Used
+
+HTML, CSS, Javascript
+
+### Frameworks, Libraries & Programs Used
+
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
 - [Google Fonts](https://fonts.google.com/) was used to import fonts into the html file.
 - [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitPod](https://gitpod.io/) - IDE used to create the site.
 - [GitHub](https://github.com/) was used to save and store the files for the website.
 - [Balsamiq](https://balsamiq.com/) was used to design the wireframes.
 - [Am I Responsive](https://ui.dev/amiresponsive) was used to display the website on different devices.
