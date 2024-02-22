@@ -196,6 +196,10 @@
     border-radius: 0.3em;
   }
 
+  #start-button:hover {
+    color: white;
+  }
+
   /* If screen width size smaller than 550px OR height size smaller than 500px, resize game area to fit screen */
 @media screen and (max-width: 578px), (max-height: 500px) {
   #game {
