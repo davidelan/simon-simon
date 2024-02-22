@@ -86,3 +86,22 @@ Home page:
 with instructions:
 
 ![Instructions Page](documentation/wireframes/all_instructions_wf.png)
+
+### Features
+
+The website is comprised of a single home page in which the game takes place, the highest score, the number of runs and the state (win or over) are displayed and the instructions can be viewed (by clicking on the "Instructions").
+
+The main website is responsive and have:
+
+* A favicon in the browser tab.
+
+  ![favicon](assets/favicon/simon-logo_48x48.png)
+
+
+#### The Home Page
+
+The home page is the place that contains all the features of the game. In it there are the main game console with the different colors, the title, the instructions (clickable), the counter with the highest score 
+
+The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+
+![Home page image](documentation/features/home.jpg)
