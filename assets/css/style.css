@@ -33,6 +33,10 @@
     transform: translateX(-50%);
     top: 125px;
   }
+
+  #label:hover {
+    color: white;
+  }
   
   #display-on-click {
     display: none;
