@@ -27,15 +27,18 @@
   }
   
   #label {
+    background-color: white;
     font-size: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 125px;
+    border-radius: 15px;
+    padding: 0px 10px;
   }
 
   #label:hover {
-    color: white;
+    color: darkgray;
   }
   
   #display-on-click {
