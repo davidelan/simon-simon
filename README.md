@@ -10,7 +10,7 @@ The original game was a physical game, a console game.
 In this version, if the player reaches a certain number of rounds, he/she wins and the game ends.  
 
 
-![Responsive Mockup](documentation/features/CI_P2_Mockup.jpg)
+![Responsive Mockup](documentation/features/mockup.jpg)
 
 ## Table of contents
 
