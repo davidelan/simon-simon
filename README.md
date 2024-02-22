@@ -112,12 +112,12 @@ In the same main page, the game can be started and according to the performance 
 
 
 
-### Features, which I would like to implement in the future
+### Future Implementations
 
--  It would be nice to implement an option for the players to choose after how many rounds they can win the game. An option to input the number would, therefore, be nice. 
-- Maybe also nice would be to give the option to the user to enter their name and display on the screen.
-- So far the only way to close the "How to Play" window is to click again on the text. It would be nicer to also have a button in the How-to description to close it from there.
-- If the Play button is pressed in the middle of the game, the game starts from scratch. It would be nice to disable the Play button for the whole duration of the game (although my girlfriend said she likes that she can restart at any time :-) )  
+1. It would be nice to implement an option for the players to choose after how many rounds they can win the game. An option to input the number would, therefore, be nice. 
+2. Maybe also nice would be to give the option to the user to enter their name and display on the screen.
+3. So far the only way to close the "How to Play" window is to click again on the text. It would be nicer to also have a button in the How-to description to close it from there.
+3. If the Play button is pressed in the middle of the game, the game starts from scratch. It would be nice to disable the Play button for the whole duration of the game (although my girlfriend said she likes that she can restart at any time :-) ) 
 
 ## Technologies Used
 
