@@ -95,7 +95,7 @@ The main website is responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](assets/favicon/simon-logo_48x48.png)
+  ![favicon](assets/favicon/simon_logo_48x48.png)
 
 
 #### The Home Page
