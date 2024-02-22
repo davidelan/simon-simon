@@ -222,7 +222,7 @@
     margin: 10px 0px 10px 0px; 
   }
 
-  #display-on-hover {
+  #display-on-click {
     width: 100%;
   }
 
@@ -231,7 +231,7 @@
     top: 80px;
   }
 
-  #header-button:checked ~ #display-on-hover {
+  #header-button:checked ~ #display-on-click {
     font-size: 20px;
   }
 
