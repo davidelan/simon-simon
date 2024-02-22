@@ -7,9 +7,10 @@ View deployed site [here.](https://davidelan.github.io/simon-game/)
 Simon Game is a game for children and adults. It was intended as a tool to improve memory and to have fun.
 The original game was a physical game, a console game. 
 "Simon is an electronic game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates,[1] with software programming by Lenny Cope. The device creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex ... " source: [Wikipedia](https://en.wikipedia.org/wiki/Simon_(game)).
-In this version, if the player reaches a certain number of rounds, he/she wins and the game ends. 
+In this version, if the player reaches a certain number of rounds, he/she wins and the game ends.  
 
-![Responsive Mockup](documentation/features/mockup.jpg)
+
+![Responsive Mockup](documentation/features/CI_P2_Mockup.jpg)
 
 ## Table of contents
 
@@ -31,13 +32,13 @@ This game is good for kids who need help with:
 
 ***Recalling and retaining information while working.***
 
-Requiring players to memorize an ever-increasing sequence of colors and sounds, Classic Simon is a great game for practicing Working Memory. The game is played in a simple, four color mode. The sequence repeats and builds on itself, requiring players to memorize and increasingly complex sequence of colors and sounds.
+Requiring players to memorize an ever-increasing sequence of colors and sounds, Classic Simon is a great game for practicing Working Memory. The game is played in a simple, four-color mode. The sequence repeats and builds on itself, requiring players to memorize an increasingly complex sequence of colors and sounds.
 
 -**Focus:**<br>
 
-***Getting started and then maintaining attention and effort to tasks.***
+***Maintaining attention and effort to tasks.***
 
-The game Simon, which tasks players with paying close attention the sequences of color and sound, are great for practicing Focus skills. Players need to pay attention to the way the colors correspond with the tones, as doing so will make memorizing each sequence all the easier.
+The game Simon, which tasks players with paying close attention to the sequences of color and sound, is great for practicing Focus skills. Players need to pay attention to the way the colors correspond with the tones, as doing so will make memorizing each sequence all the easier.
 
 This game is good for rehabilitation for stroke patients:
 
@@ -45,7 +46,7 @@ This game is good for rehabilitation for stroke patients:
 
 The Simon game is a fun, inexpensive, and engaging exercise to improve memory and brain function after stroke or brain injury.
 
-Using colored blocks, lights, and sounds as directional prompts, the Simon game engages cognitive function that works on sequential processing, short-term memory, attention and visual processing.
+Using colored blocks, lights, and sounds as directional prompts, the Simon game engages cognitive functions that works on sequential processing, short-term memory, attention and visual processing.
 
 -**Suitability:**<br>
 
@@ -54,7 +55,7 @@ The game is suitable for all ages. Adults supervision advised for children under
 ## Design
 
 - **Imagery:**
-  The images that make up the game are crated with the combination of html divs and css styling. No external image was used in the project.
+  The images that make up the game are created with the combination of html divs and css styling. No external image was used in the project.
 - **Colour Scheme:**
   The colors of the console have been chosen according to the colors of the real Simon game. The background color was set to "lightgray" which I considered to be an appropriate contrast color for the colorful game.  
 
@@ -67,8 +68,7 @@ The game is suitable for all ages. Adults supervision advised for children under
 
 * I have used `gray` as the background color of the inner circle of the console game.
 
-* I have used `antiquewhite` as the background color for the Max Score and the Instructions.
- <br>
+* I have used `antiquewhite` as the background color for the Max Score and the Instructions.<br>
 
 - **Typography:**
   [Original Surfer + emboss effect](https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss) was used for the title of the page, the Max Score section and for the name of the game in the middle of the console.
@@ -79,19 +79,15 @@ The game is suitable for all ages. Adults supervision advised for children under
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-Home page:
-
 ![Home Page](documentation/wireframes/all_home_wf.png)
-
-with instructions:
-
 ![Instructions Page](documentation/wireframes/all_instructions_wf.png)
+
 
 ### Features
 
-The website is comprised of a single home page in which the game takes place, the highest score, the number of runs and the state (win or over) are displayed and the instructions can be viewed (by clicking on the "Instructions").
+The website consists of a single home page in which the game takes place, the highest score, the number of runs and the state (win or over) are displayed and the instructions can be viewed (by clicking on the "Instructions").
 
-The main website is responsive and have:
+The main website is responsive and has:
 
 * A favicon in the browser tab.
 
@@ -102,8 +98,7 @@ The main website is responsive and have:
 
 The home page is the place that contains all the features of the game. In it there are the main game console with the Play button, the different game color sections, the title, the "How to Play" (clickable), the counter with the highest score. 
 
-![Home page image](documentation/features/home.jpg)
-
+![Home image](documentation/features/home.jpg)
 
 
 When clicking on "How to play", a window (with the game instructions) inside the main page is displayed.
@@ -113,9 +108,25 @@ When clicking on "How to play", a window (with the game instructions) inside the
 
 <br>
 
-In the same main page the game can be started and according to the performance of the player, win or lose.
+In the same main page, the game can be started and according to the performance of the player, win or lose. 
+
 
 
 ### Features, which I would like to implement in the future
 
--  
+-  It would be nice to implement an option for the players to choose after how many rounds they can win the game. An option to input the number would, therefore, be nice. 
+- Maybe also nice would be to give the option to the user to enter their name and display on the screen.
+- So far the only way to close the "How to Play" window is to click again on the text. It would be nicer to also have a button in the How-to description to close it from there.
+- If the Play button is pressed in the middle of the game, the game starts from scratch. It would be nice to disable the Play button for the whole duration of the game (although my girlfriend said she likes that she can restart at any time :-) )  
+
+## Technologies Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
+- [Google Fonts](https://fonts.google.com/) was used to import fonts into the html file.
+- [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/) was used to save and store the files for the website.
+- [Balsamiq](https://balsamiq.com/) was used to design the wireframes.
+- [Am I Responsive](https://ui.dev/amiresponsive) was used to display the website on different devices.
+- [LanguageTool](https://languagetool.org/) was used to check the grammar and spelling in the README.
