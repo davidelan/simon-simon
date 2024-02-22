@@ -9,7 +9,7 @@ The original game was a physical game, a console game.
 "Simon is an electronic game of short-term memory skill invented by Ralph H. Baer and Howard J. Morrison, working for toy design firm Marvin Glass and Associates,[1] with software programming by Lenny Cope. The device creates a series of tones and lights and requires a user to repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex ... " source: [Wikipedia](https://en.wikipedia.org/wiki/Simon_(game)).
 In this version, if the player reaches a certain number of rounds, he/she wins and the game ends. 
 
-![Responsive Mockup](documentation/features/CI_P2_Mockup.jpg)
+![Responsive Mockup](documentation/features/mockup.jpg)
 
 ## Table of contents
 
@@ -100,8 +100,13 @@ The main website is responsive and have:
 
 #### The Home Page
 
-The home page is the place that contains all the features of the game. In it there are the main game console with the different colors, the title, the instructions (clickable), the counter with the highest score 
-
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The home page is the place that contains all the features of the game. In it there are the main game console with the Play button, the different game color sections, the title, the "How to Play" (clickable), the counter with the highest score. 
 
 ![Home page image](documentation/features/home.jpg)
+
+
+When clicking on "How to play", a window (with the game instructions) inside the main page is displayed.
+
+![Modal open image](documentation/features/home_howto.jpg)
+
+
