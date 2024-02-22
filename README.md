@@ -105,8 +105,9 @@ The home page is the place that contains all the features of the game. In it the
 ![Home page image](documentation/features/home.jpg)
 
 
-<br>
+
 When clicking on "How to play", a window (with the game instructions) inside the main page is displayed.
+<br>
 
 ![HowTo image](documentation/features/home_howto.jpg)
 
