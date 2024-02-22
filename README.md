@@ -188,3 +188,8 @@ To clone the repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
+
+## Testing
+
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+
