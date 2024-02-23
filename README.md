@@ -274,7 +274,7 @@ When using Safari the game works well but the sounds are not synchronized with t
 
 ### Acknowledgments
 
-- I would like to thank my mentor Jubril Akolade for his great tips and great assistance on how to make improve my project
+- I would like to thank my mentor Jubril Akolade for his great tips and great assistance on how to improve my project
 
 - A big thanks to all the other students in Slack that have helped me and inspired me greatly.
 - Thanks a lot to Kay Welfare for her incredible support that she gives us every Thursday. 
