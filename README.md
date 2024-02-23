@@ -191,5 +191,28 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+1. **Validator Testing**
 
+- **[HTML Validator](https://validator.w3.org/)**
+
+  - result for index.html<br>
+  The results of the HTML validator showed no warnings or errors.<br>     
+    ![HTML final result](documentation/testing/html_validation.jpg)<br>
+   
+- **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
+   - result for styles.css <br>
+   The results of the CSS validator showed no warnings or errors.<br>
+     ![CSS result](documentation/testing/css_validation.jpg)
+     
+- **[JSHint](https://jshint.com/)**
+  - result for sript.js <br>
+  After adding the comment "jshint esversion: 6" at the beginning of the js file (which tells the validator to use the right version) no warnings or errors were detected.<br>
+   
+
+2. **Lighthouse Test** <br>
+   To measure the website against performance, accessibility, SEO and best practice, I used [Lighthouse] from Google Chrome.<br>
+   - result for index.html<br>
+   All scores were 100%.
+   ![Lighthouse Results](documentation/testing/lighthouse_validation.jpg)
+
+   
