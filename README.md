@@ -228,3 +228,17 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 | Play Button | Starts the console game | Clicked on button | Game starts flashing the colors and sounds | Pass |
 | How to Play button - hover effect | The button with black text should change to darkgray text when hovered over. | Hover over How to Play button on the page | The button displayed the correct styling when hovered over | Pass |
 | Start button - hover effect | The Start button with black text should change to white when hovered over. | Hover over the Start button on the page | The Start button displayed the correct styling when hovered over | Pass |
+
+4. **Browser Compatibility**<br>
+  The tests were conducted using the following browsers:
+
+- Google Chrome Version 121.0.6167.187
+- Safari on Mac Version 15.2 (17612.3.6.1.6)<br>
+When using Safari the game works well but the sounds are not synchronized with the flashing of the colors.
+
+- Firefox Version 123.0
+- Edge Version Version 121.0.2277.128
+
+5. **Bugs**
+
+- No bugs where found.
