@@ -215,4 +215,16 @@ To clone the repository:
    All scores were 100%.
    ![Lighthouse Results](documentation/testing/lighthouse_validation.jpg)
 
-   
+
+3. **Manual testing** <br>
+To ensure the pages are responsive, I used the Google Chrome developer tools.
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| How to play button | Displays paragraph with the instructions on how to play the game | Clicked on button | Text with instructions on how to play opens | Pass |
+| How to play close button | Closes the paragraph | Clicked on button | Text with instructions closed | Pass |
+| Play Button | Starts the console game | Clicked on button | Game starts flashing the colors and sounds | Pass |
+| How to Play button - hover effect | The button with black text should change to darkgray text when hovered over. | Hover over How to Play button on the page | The button displayed the correct styling when hovered over | Pass |
+| Start button - hover effect | The Start button with black text should change to white when hovered over. | Hover over the Start button on the page | The Start button displayed the correct styling when hovered over | Pass |
