@@ -242,3 +242,41 @@ When using Safari the game works well but the sounds are not synchronized with t
 5. **Bugs**
 
 - No bugs where found.
+
+## Credits
+
+### Code
+
+- The idea of the main functionality of the game was taken from the FreeCodeCamp youtube tutorial [FreeCodeCamp](https://www.youtube.com/watch?v=n_ec3eowFLQ)
+- Some more aspects of the Javascript programming and concepts were also inspired by the FreshmanTech website [FreshManTech](https://freshman.tech/simon-game/) 
+
+- The following websites were used as a source of knowledge: <br>
+  - [Google](www.google.com)
+  - [W3C](https://www.w3.org/)
+  - [W3schools](https://www.w3schools.com/)
+  - [Stack Overflow](https://stackoverflow.com/)
+  - Slack Community
+
+### Media
+
+- The logo image is from Freepik – Flaticon and was found on the [Freepik](https://www.flaticon.com/free-icon/game_489700?term=simon+game&page=1&position=1&origin=search&related_id=489700) website.
+- The fonts were imported from [Google Fonts](https://fonts.google.com/).
+- Original Game sounds from freecodecamp downloaded from:
+            https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
+            https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
+
+### ReadMe
+
+- The main structure of the README file was taken from the excellent file of [Kera Cudmore](https://github.com/kera-cudmore/TheQuizArms).
+- Some ideas also taken from the great README file of [Dajana Isbaner](https://github.com/Code-Institute-Submissions/queenisabaer-letter-match)
+
+### Acknowledgments
+
+- I would like to thank my mentor Jubril Akolade for his great tips and great assistance on how to make improve my project
+
+- A big thanks to all the other students in Slack that have helped me and inspired me greatly.
+- Thanks a lot to Kay Welfare for her incredible support that she gives us every Thursday. 
+
+**This is for educational use.**
