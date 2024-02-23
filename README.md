@@ -261,11 +261,11 @@ When using Safari the game works well but the sounds are not synchronized with t
 
 - The logo image is from Freepik – Flaticon and was found on the [Freepik](https://www.flaticon.com/free-icon/game_489700?term=simon+game&page=1&position=1&origin=search&related_id=489700) website.
 - The font and the effect were imported from [Google Fonts](https://fonts.google.com/).
-- Original Game sounds from freecodecamp downloaded from:
-            - https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
-            - https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
-            - https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
-            - https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
+- Original Game sounds from freecodecamp downloaded from:<br>
+            - https://s3.amazonaws.com/freecodecamp/simonSound1.mp3<br>
+            - https://s3.amazonaws.com/freecodecamp/simonSound2.mp3<br>
+            - https://s3.amazonaws.com/freecodecamp/simonSound3.mp3<br>
+            - https://s3.amazonaws.com/freecodecamp/simonSound4.mp3<br>
 
 ### ReadMe
 
