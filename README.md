@@ -115,21 +115,21 @@ In the same main page, the game can be started and according to the performance 
 ### Future Implementations
 
 1. It would be nice to implement an option for the players to choose after how many rounds they can win the game. An option to input the number would, therefore, be nice. 
-2. Maybe also nice would be to give the option to the user to enter their name and display on the screen.
+2. Maybe also nice would be to give the option to the user to enter their name and display it on the screen.
 3. So far the only way to close the "How to Play" window is to click again on the text. It would be nicer to also have a button in the How-to description to close it from there.
 3. If the Play button is pressed in the middle of the game, the game starts from scratch. It would be nice to disable the Play button for the whole duration of the game (although my girlfriend said she likes that she can restart at any time :-) 
 
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+I have been mindful during coding to ensure that the website (and the game) is as accessible friendly as possible. This has been achieved by:
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to play the game.
+In a future implementation I think it would be a great accessibility feature to add the possibility to enable people who are colour blind to also be able to play the game.
 
 
 ## Technologies Used
@@ -200,7 +200,7 @@ To clone the repository:
     ![HTML final result](documentation/testing/html_validation.jpg)<br>
    
 - **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
-   - result for styles.css <br>
+   - result for style.css <br>
    The results of the CSS validator showed no warnings or errors.<br>
      ![CSS result](documentation/testing/css_validation.jpg)
      
@@ -260,12 +260,12 @@ When using Safari the game works well but the sounds are not synchronized with t
 ### Media
 
 - The logo image is from Freepik – Flaticon and was found on the [Freepik](https://www.flaticon.com/free-icon/game_489700?term=simon+game&page=1&position=1&origin=search&related_id=489700) website.
-- The fonts were imported from [Google Fonts](https://fonts.google.com/).
+- The font and the effect were imported from [Google Fonts](https://fonts.google.com/).
 - Original Game sounds from freecodecamp downloaded from:
-            https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
-            https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
-            https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
-            https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
+            - https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
+            - https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
+            - https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
+            - https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
 
 ### ReadMe
 
