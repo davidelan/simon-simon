@@ -85,7 +85,7 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ### Features
 
-The website consists of a single home page in which the game takes place, the highest score, the number of runs and the state (win or over) are displayed and the instructions can be viewed (by clicking on the "Instructions").
+The website consists of a single home page in which the game takes place, the highest score, the number of runs and the state (win or over) are displayed and the instructions can be viewed (by clicking on the "How to Play").
 
 The main website is responsive and has:
 
